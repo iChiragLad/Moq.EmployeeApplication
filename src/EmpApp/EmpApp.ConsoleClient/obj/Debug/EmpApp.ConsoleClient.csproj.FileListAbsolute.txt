@@ -1,0 +1,4 @@
+D:\Do not touch\C# practice\CSharp_Practice\Moq\libs\EmpApp.ConsoleClient.exe.config
+D:\Do not touch\C# practice\CSharp_Practice\Moq\libs\EmpApp.ConsoleClient.exe
+D:\Do not touch\C# practice\CSharp_Practice\Moq\libs\EmpApp.ConsoleClient.pdb
+D:\Do not touch\C# practice\CSharp_Practice\Moq\src\EmpApp\EmpApp.ConsoleClient\EmpApp.ConsoleClient.exe.config
