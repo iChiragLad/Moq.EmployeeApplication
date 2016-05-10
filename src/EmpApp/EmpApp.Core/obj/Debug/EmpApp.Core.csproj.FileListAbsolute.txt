@@ -1,0 +1,4 @@
+D:\Do not touch\C# practice\CSharp_Practice\Moq\src\EmpApp\EmpApp.Core\bin\Debug\EmpApp.Core.dll
+D:\Do not touch\C# practice\CSharp_Practice\Moq\src\EmpApp\EmpApp.Core\bin\Debug\EmpApp.Core.pdb
+D:\Do not touch\C# practice\CSharp_Practice\Moq\src\EmpApp\EmpApp.Core\obj\Debug\EmpApp.Core.dll
+D:\Do not touch\C# practice\CSharp_Practice\Moq\src\EmpApp\EmpApp.Core\obj\Debug\EmpApp.Core.pdb

@@ -40,7 +40,7 @@
     </Reference>
     <Reference Include="Moq">
       <HintPath>..\..\..\libs\Moq.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
@@ -50,7 +50,15 @@
     <Compile Include="EmpApp.Core\EmpAppTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\EmpApp.Core\EmpApp.Core.csproj">
+      <Project>{1179067a-edd7-4158-93ff-5cb72d2ea165}</Project>
+      <Name>EmpApp.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

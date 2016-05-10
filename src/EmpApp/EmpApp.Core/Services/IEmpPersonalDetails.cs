@@ -9,6 +9,7 @@ namespace EmpApp.Core.Services
 {
     public interface IEmpPersonalDetails
     {
+        bool Eligibility { get; set; }
         float GetEmployeeSalary(int empId);
         void SaveEmployee(Employee employee);
         Employee GetEmployeeDetails(int empId);

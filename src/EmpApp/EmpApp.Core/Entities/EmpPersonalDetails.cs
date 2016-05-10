@@ -10,6 +10,7 @@ namespace EmpApp.Core.Entities
     public class EmpPersonalDetails : IEmpPersonalDetails
     {
         private readonly EmployeeEntity _employeeEntity;
+        public bool Eligibility { get; set; }
 
         public EmpPersonalDetails()
         {
@@ -20,12 +21,13 @@ namespace EmpApp.Core.Entities
         {
             if(pfDetails.IsPfEligible(empId))
             {
-                return true;
+                Eligibility = true;
             }
             else
             {
-                return false;
+                Eligibility = false;
             }
+            return Eligibility;
         }
 
         public int GetDurationWorked(int empId)

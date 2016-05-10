@@ -40,5 +40,15 @@ namespace EmpApp.Core.Entities
             }
         }
 
+        public bool EmployeeGeneralEligibility(int empId)
+        {
+            if(_empPersonalDetails.GetDurationWorked(empId) < 12)
+            {
+                _empPersonalDetails.Eligibility = false;
+            }
+
+            return _empPersonalDetails.Eligibility;
+        }
+
     }
 }
